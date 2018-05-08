@@ -13,11 +13,20 @@
     </head>
     <body>
         <h1>NASABAH</h1>
-        Nomor Register  : <c:out value="${noRegister}"/>
-        <br/>
-        Nama Lengkap    : <c:out value="${nama}"/>
-        <br/>
-        Gender          : <c:out value="${gender}"/>
+        <table border="1">
+    <tr>
+        <td>     No Register    </td>
+        <td>     Nama Nasabah   </td>
+        <td>    Jenis Kelamin   </td>
+    </tr>
+    <tr>
+        <td><c:out value="${noRegister}"/></td>
+        <td><c:out value="${nama}"/></td>
+        <td><c:out value="${gender}"/></td>
+    </tr>
+    
+</table>
+        
 
 </body>
 </html>

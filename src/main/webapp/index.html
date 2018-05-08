@@ -5,15 +5,24 @@
     <body>
         <h2>FORM BIODATA NASABAH</h2>
         <form action="/javaweb-latihan1/nasabah" method="post">
-            Nomor Register
-            <input type="number" name="noRegister" id="noRegister"/>
-            <br/>
-            Nama Nasabah 
-            <input type="text" name="nama" id="nama"/>
-            <br/>
-            Jenis Kelamin
-            <input type="radio" name="gender" id="gender"> Laki - Laki <input type="radio" name="gender" id="gender"> Perempuan
-            <br/>
+            <table border="1">
+                <tr>
+                    <td>    Nomor Register  </td>
+                    <td>     <input type="number" name="noRegister" id="noRegister"/>   </td>
+                    <td>       </td>
+                </tr>
+                <tr>
+                    <td>Nama Nasabah</td>
+                    <td><input type="text" name="nama" id="nama"/></td>
+
+                </tr>
+                <tr>
+                    <td>    Jenis Kelamin      </td>
+                    <td> <input type="radio" value="L" name="gender" id="gender"> Laki - Laki <input type="radio" value="P" name="gender" id="gender"> Perempuan</td>
+
+                </tr>
+
+            </table>
             <button type="submit">Simpan</button>
             <button type="reset">Reset</button>>
         </form>
